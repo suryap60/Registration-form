@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.container{
+    width: 500px;
+    height: 700px;
+}
+.all{
+    width: 500px;
+    height: 590px;
+    background-color: rgb(228, 228, 238);
+    margin-left: 400px;
+    margin-top: 45px;
+    border-radius: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.all h1{
+    color: rgb(51, 83, 214);
+}
+
+.reg{
+    /* border-radius: 30px; */
+    
+}
+.reg img{
+    width: 500px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.input{
+    display: flex;
+    
+}
+.input input{
+    width: 190px;
+    height: 30px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: 1px solid rgb(71, 69, 69);
+    padding-left: 15px;
+    background-color: rgb(228, 228, 238);
+}
+.in input{
+    width: 400px;
+    height: 30px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: 1px solid rgb(71, 69, 69);
+    padding-left: 15px;
+    background-color: rgb(228, 228, 238);
+}
+.form{
+    padding-left: 40px; 
+}
+.form label{
+    /* font-weight: bold; */
+    font-weight:500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.reg button{
+    width: 418px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(51, 83, 214);
+    color: white;
+    font-size: 16px;
+}
